@@ -14,7 +14,7 @@
 
     + Print an appropriate message on the console.
 
-  + Use testing of bits logic
+    + Use testing of bits logic
 
 2. Determining Even or Odd Using Bitwise OR
 
