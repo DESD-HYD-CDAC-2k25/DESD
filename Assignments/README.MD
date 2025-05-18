@@ -1,4 +1,4 @@
-#C
+# C
 ### Storage Classes
 
 1. Write a program to demonstrate the behavior of the auto storage class. Create a function that declares an auto variable, modifies it, and prints its value. Call the function multiple times and observe the output. Using static Storage Class
@@ -9,9 +9,7 @@
 
 ### Bitwise 
 
-1.
-
-    - Write a program to find out whether a user entered integer is even or odd.(Use bitwise AND)
+1.    - Write a program to find out whether a user entered integer is even or odd.(Use bitwise AND)
 
     - Print an appropriate message on the console.
 
