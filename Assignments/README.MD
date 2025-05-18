@@ -10,8 +10,8 @@
 ### Bitwise 
 
 1.    - Write a program to find out whether a user entered integer is even or odd.(Use bitwise AND)
-    - Print an appropriate message on the console.
-    - Use testing of bits logic
+- Print an appropriate message on the console.
+- Use testing of bits logic
 
 2. Determining Even or Odd Using Bitwise OR
 
