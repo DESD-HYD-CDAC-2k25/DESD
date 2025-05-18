@@ -1,5 +1,6 @@
 ## OS MODULE EXAM
 Ques OS BATCH 1
+
 I. Implement the following requirements using Operating system ( Use UNNamed PIPES )
 
 - System has two processes P1 and p2 
@@ -19,6 +20,7 @@ II. Implement the following requirements using Operating system ( use Message Qu
 
 
 Ques OS BATCH 2
+
 I. Implement the following requirements using Operating system ( Use Shared Memory )
 
 - System has two processes P1 and p2 
