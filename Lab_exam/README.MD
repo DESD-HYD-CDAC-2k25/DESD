@@ -1,6 +1,6 @@
 ## OS MODULE EXAM
 Ques OS BATCH 1
-1. Implement the following requirements using Operating system ( Use UNNamed PIPES )
+I. Implement the following requirements using Operating system ( Use UNNamed PIPES )
 
 - System has two processes P1 and p2 
 - p1 opens a file <any file>
@@ -19,7 +19,7 @@ II. Implement the following requirements using Operating system ( use Message Qu
 
 
 Ques OS BATCH 2
-1. Implement the following requirements using Operating system ( Use Shared Memory )
+I. Implement the following requirements using Operating system ( Use Shared Memory )
 
 - System has two processes P1 and p2 
 - p1 opens a file <any file>
