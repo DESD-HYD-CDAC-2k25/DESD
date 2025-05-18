@@ -1,4 +1,19 @@
 # C
+### Day 3
+
+1. Develop a C program which adds all numbers from 1 to N, except those which are divisible by 5. Implement this using for loop and continue statement. 
+
+2. Develop a C program to find factorial of a number N using for loop. 
+
+3. Develop a C program to find sum of all odd numbers upto N using while loop. 
+
+4. Write a Program to find if a given number is Armstrong number. 
+
+**Hint: (153 = 1^3 + 5^3 + 3^3)**
+
+5. Write a program to find whether given number is palindrome or not.
+
+
 ### Storage Classes
 
 1. Write a program to demonstrate the behavior of the auto storage class. Create a function that declares an auto variable, modifies it, and prints its value. Call the function multiple times and observe the output. Using static Storage Class
