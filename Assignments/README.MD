@@ -1,5 +1,5 @@
 # DS
-##Assignment 1
+## Assignment 1
 1. Given a matrix A of size m x n, write a function that returns the sum of elements below the main diagonal, i.e those elements aij for which i>j
 
 2. Create a linked list ADT with functions for insertion, deletion, traverse forward, traverse reverse, searching for an element, reversing a list and also test the above functionality. 
@@ -14,11 +14,11 @@
 
 7. Create a Stack ADT using array implementation and solve the following
 
-  a. Balancing symbols
+  - Balancing symbols
 
-  b. Evaluation of postfix expression
+  - Evaluation of postfix expression
 
-  c. Converting Infix to postfix
+  - Converting Infix to postfix
 
 8. Create a Stack ADT using linked list implementation
 
@@ -32,8 +32,8 @@
 
 1. Implement the following searching techniques
 
-  a. Sequential Search
-  b. Binary Search
+  - Sequential Search
+  - Binary Search
 
 2. Implement Selection Sort, Bubble Sort, Insertion Sort, Quick Sort, Merge Sort and Heap sort algorithms. 
 3. Create a hash table of size 11 which maintains keys of integer type. Resolve the collisions using separate chaining. Also include functionality to print the elements hashed into each of the slot in hash table. 
