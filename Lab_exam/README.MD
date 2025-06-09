@@ -40,6 +40,7 @@ II. Implement the following requirements using Operating system ( use Message Qu
 ## LDD
 
 Q1) Basic character Driver Development
+
 A. Write a basic character driver that implements driver that implements:
  open(), read(), write(), close().
 Print messages in each function to indicate when they are called.
@@ -48,10 +49,14 @@ B. Modify the basic driver to support a fixed-size kernel buffer(e.g.100 bytes)
     store return data in the buffer.
     Read return the data from the buffer.
 C. Implement an IOCTL command to clear the kernel buffer.
+
 D. Verify User Read/Write operations using IOCTL functionality.
 
+
 Q2) Kernel synchronization mechanism for multiple devices.
-A. Write a character for Multiple devices and create 2 devicenumbers. Use spinlock to protect theCritical section ( write activity ) and 
+
+A. Write a character for Multiple devices and create 2 devicenumbers. 
+Use spinlock to protect the Critical section ( write activity ) and 
     Use wait queues to avoid consecutive write operations.
 
 B. Put the write function to sleep using wait-queues after successful write operation before releasing spinlock.
@@ -59,8 +64,9 @@ C. Wake-up sleep (wait-queues) operation only in read function.
 D. Maintain a Kernel buffer of 50 bytes to read and Write data.
 E. Write 2 seperate programs for Read and Write for each device.
 
+
 Q3) GPIO and LED
 
-A. Write a basic GPIO driver to turn an LED ON?OFF using IOCTL
+A. Write a basic GPIO driver to turn an LED ON/OFF using IOCTL.
 B. Use a kernel timer to blink the LED every 1 second.
 C. Add an IOCTL to change the blink interval dynamically.
