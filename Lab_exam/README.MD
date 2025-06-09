@@ -37,7 +37,7 @@ II. Implement the following requirements using Operating system ( use Message Qu
 - P2 counts the occurence of the letter 'A' and 'Z' in the incoming data from P1
 - P2 prints the number of Occurences of 'A' and 'Z' letters.
 
-##LDD
+## LDD
 
 Q1) Basic character Driver Development
 A. Write a basic character driver that implements driver that implements:
