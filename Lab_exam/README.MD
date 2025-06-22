@@ -71,7 +71,7 @@ A. Write a basic GPIO driver to turn an LED ON/OFF using IOCTL.
 B. Use a kernel timer to blink the LED every 1 second.
 C. Add an IOCTL to change the blink interval dynamically.
 
-##RTOS
+## RTOS
 
 BATCH-2
 
@@ -109,6 +109,5 @@ TASKS 4 priority 2
 
 
 ‎Task1‎<--|‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎             |--<-Task3
-
-‎ ‎ ‎ ‎ ‎ ‎ ‎‎  ‎ ‎ ‎ ‎ ‎   | --‎ MQUEUE<----|
+‎ ‎ ‎ ‎ ‎ ‎ ‎‎  ‎ ‎ ‎ ‎ ‎   |<--‎ MQUEUE<----|
 Task2 ‎<-| ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎          |--<-Task4
