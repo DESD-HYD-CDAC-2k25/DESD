@@ -70,3 +70,44 @@ Q3) GPIO and LED
 A. Write a basic GPIO driver to turn an LED ON/OFF using IOCTL.
 B. Use a kernel timer to blink the LED every 1 second.
 C. Add an IOCTL to change the blink interval dynamically.
+
+##RTOS
+
+BATCH-2
+
+Q1. Implement a RTOS application where a periodic software timer sends integer data to a task via a Message Buffer.
+
+Your task is to implement the following:
+
+TASKS 1 priority 8
+
+TASKS 2 priority 6
+
+Task 1:
+
+- This task continuously receives integer data from the message buffer every 3 seconds.
+
+Task 2:
+
+- This task creates and starts a periodic software timer that triggers every 1 second and task2 deletes itself after starting the timer.
+
+- The timer callback should generate an integer value and send it to a message buffer.
+
+- The integer value should start at 0 and be incremented with each timer callback.
+
+Q2. Implement a RTOS application that demonstrates inter-task communication of integer data using message queues. The application should involve 4 tasks, 2 tasks sending the data through message queue every 2 seconds and 2 tasks receiving data through message queue every 5 seconds.
+
+periodicity and priorities of the tasks are as follows
+
+TASKS 1 priority 8
+
+TASKS 2 = priority 6
+
+TASKS 3 priority 4
+
+TASKS 4 priority 2
+
+
+‎Task1‎<--|‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎             |--<-Task3
+‎ ‎ ‎ ‎ ‎ ‎ ‎‎  ‎ ‎ ‎ ‎ ‎   | --‎ MQUEUE<----|
+Task2 ‎<-| ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎          |--<-Task4
